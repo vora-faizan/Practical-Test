@@ -1,0 +1,97 @@
+/* src/styles.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f5f6f8;
+  color: #222;
+}
+.container {
+  padding: 20px;
+  max-width: 1100px;
+  margin: 20px auto;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 20px;
+  background: #fff;
+  border-bottom: 1px solid #eee;
+}
+.nav a {
+  margin-right: 12px;
+  text-decoration: none;
+  color: #333;
+}
+.nav-left a,
+.nav-right a {
+  margin-right: 10px;
+}
+.btn {
+  background: #2b7cff;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.auth-card {
+  background: #fff;
+  padding: 18px;
+  border-radius: 8px;
+  width: 320px;
+  margin: 40px auto;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.05);
+}
+.auth-card input,
+.auth-card textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 8px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+.error {
+  color: #a94442;
+  background: #f2dede;
+  padding: 8px;
+  margin-top: 8px;
+  border-radius: 6px;
+}
+.success {
+  color: #155724;
+  background: #d4edda;
+  padding: 8px;
+  border-radius: 6px;
+  margin-top: 8px;
+}
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  border: 1px solid #eee;
+  margin-top: 12px;
+}
+.table th,
+.table td {
+  border-bottom: 1px solid #f1f1f1;
+  padding: 8px 10px;
+  text-align: left;
+}
+.crud-grid {
+  display: flex;
+  gap: 18px;
+}
+.crud-form {
+  width: 320px;
+  padding: 12px;
+  background: #fff;
+  border-radius: 8px;
+}
+.crud-list {
+  flex: 1;
+  padding: 12px;
+  background: #fff;
+  border-radius: 8px;
+}

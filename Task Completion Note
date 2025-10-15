@@ -1,0 +1,135 @@
+Task Completion Note
+
+Project/Task Name:
+React Redux Todo Application with Authentication & CRUD
+
+Date:
+15 October 2025
+
+1. Task Overview
+
+This task involved building a React application with Redux integration, following these steps:
+
+Set Up React App
+
+Created a React project using the latest best practices.
+
+Organized folder structure (components, pages, features, api, etc.).
+
+Install and Configure Redux
+
+Installed Redux Toolkit.
+
+Implemented structured state management using slices and async thunks.
+
+User Authentication
+
+Developed a login page and integrated the dummyjson.com authentication API.
+
+Stored JWT token securely in localStorage upon successful login.
+
+Implemented proper error handling with informative feedback for unsuccessful login attempts.
+
+Product List Table Page
+
+Fetched product data from API via Redux.
+
+Displayed products elegantly in a table/list page.
+
+CRUD Operations
+
+Created a dedicated page to perform Create, Read, Update, and Delete operations.
+
+Properly integrated Redux state updates with API calls.
+
+Git Repository Setup
+
+Initialized Git repository, pushed code to GitHub, and shared the link.
+
+2. Tools/Technologies Used
+
+React JS (latest version)
+
+Redux Toolkit
+
+React Router DOM
+
+Fetch API / Axios
+
+SCSS modules for styling
+
+Component Library: Material UI (example)
+
+3. Challenges Faced
+
+Login/Authentication (Major Challenge)
+
+Redirect after login was not working properly.
+
+API login attempts returned 400 Bad Request or 403 Forbidden errors.
+
+Encountered CORS issues when hitting external API.
+
+Synchronizing token between Redux state and localStorage was tricky.
+
+Product List Fetching
+
+Managing API data in Redux state and dynamically rendering it in a table required careful handling.
+
+CRUD Operations
+
+Refreshing Redux state after updates or deletions was challenging.
+
+Form validation and error handling needed extra attention.
+
+Protected Routes & Redirects
+
+Preventing access to pages without login and redirecting properly after login was tricky.
+
+4. Solutions Implemented
+
+Login/Auth Fixes:
+
+Used useNavigate and useLocation to properly handle redirects.
+
+Sent API payloads in correct JSON format.
+
+Resolved CORS issues using proxy URL (https://cors-anywhere.herokuapp.com/).
+
+Updated Redux slice to store token and synchronize it with localStorage.
+
+Product List & CRUD:
+
+Implemented fetch and updates using Redux async thunks.
+
+Set up dynamic table rendering and CRUD forms.
+
+Displayed success/error messages for better UX.
+
+Protected Routes:
+
+Used conditional rendering with token checks.
+
+Ensured pages were blocked without login and redirected correctly after login.
+
+5. Learnings / Key Takeaways
+
+Gained clear understanding of React + Redux integration in real-world scenarios.
+
+Learned how to handle authentication flow, token management, and error handling.
+
+Improved knowledge of CRUD operations with Redux state and API integration.
+
+Learned how to manage React Router redirects and protected routes efficiently.
+
+Gained practical experience in API integration and debugging.
+
+6. Next Steps / Improvements
+
+Display user-friendly messages and improve UI for login errors.
+
+Implement token expiry and refresh logic.
+
+Make Redux slices and API calls more modular and reusable.
+
+Add pagination, search, and filter options to product table and CRUD pages.
