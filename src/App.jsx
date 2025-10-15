@@ -1,20 +1,9 @@
-import { useState } from "react";
-import Todo from "./Componetns/toDo";
-import Clock from "./Componetns/Clock/Clock";
-import List from "./Componetns/list";
-import Map from "./Componetns/map";
-function App() {
-  let foodItem = ["hero", " ha", "dss"];
-  return (
-    <>
-      <h1>Hello Brother</h1>
+import React from 'react'
 
-      
-      
-      <Todo/>
-   
-      </>
-  );
+function App() {
+  return (
+    <div>Hello React Js </div>
+  )
 }
 
-export default App;
+export default App
